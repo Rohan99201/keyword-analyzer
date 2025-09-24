@@ -53,9 +53,9 @@ export default function App() {
   const [selectedKeywords, setSelectedKeywords] = useState([]);
 
   const [startDate, setStartDate] = useState(dayjs("2025-01-01"));
-  const [endDate, setEndDate] = useState(dayjs("2025-08-01"));
-  const [compareStart, setCompareStart] = useState(dayjs("2024-09-01"));
-  const [compareEnd, setCompareEnd] = useState(dayjs("2024-12-01"));
+  const [endDate, setEndDate] = useState(dayjs("2025-01-01"));
+  const [compareStart, setCompareStart] = useState(dayjs("2024-01-01"));
+  const [compareEnd, setCompareEnd] = useState(dayjs("2024-01-01"));
 
   // Load main Excel file based on treatment
   useEffect(() => {
